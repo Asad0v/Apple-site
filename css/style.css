@@ -421,6 +421,9 @@ footer p{
     font: 12.8px  Arial, Helvetica, sans-serif;
     text-align: left;
 }
+.footermenudetskop{
+    display: none;
+}
 /* footer .footermenu .footernav{
     line-height: 2.5em;
 } */
