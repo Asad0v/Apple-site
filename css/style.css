@@ -1,0 +1,638 @@
+:root{ 
+    --boz: #f2f2f2;
+    --blue: #0071e3;
+}
+.bgboz{background-color: var(--boz) !important; }
+.txtcenter{text-align: center;}
+.bgfbfbfb{ background-color: #fbfbfb;}
+.bgqara{background-color: #000 !important; color: #fff;}
+section{padding: 40px 0;}
+#nav{
+    padding: 13px 0;
+}
+nav ul li{padding: 0 5px ;}
+nav ul li a{
+    font: bold .7rem Arial, sans-serif !important;
+    color: black !important;
+}
+.collapse svg{display: none !important;}
+
+.navbar-nav{margin: auto !important;}
+.headerslider{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.headerslider div{
+    /* border: 1px solid red; */
+    padding: 10px;
+    text-align: center;
+    margin: 0 10px;
+}
+.headerslider p{
+    font: .7em Arial, Helvetica , sans-serif;
+}
+.new{
+    font: .6em  Arial, Helvetica , sans-serif;
+    color: #bf4800;
+}
+.headerbtm {
+    background-color: var(--boz);
+    padding: 15px 0 ;
+    text-align: center;
+    p{
+        font: 1.3em  Arial, Helvetica , sans-serif;
+        /* text-align: center; */
+    }
+    
+}
+.linkdiv{ padding: 20px 0;}
+.links{ 
+    display: inline-block;
+    /* margin-top: 8px;  */
+    text-decoration: none;
+    font-size: 1em;
+    color: var(--blue);
+}
+.links::after{
+    display: block;
+    content: "";
+    height: 3px;
+    margin: 5px 0;
+    width: 0px;
+    background: transparent;
+
+}
+#titanium{ 
+    background-color: #000;
+    padding: 40px 0;
+    
+}
+#titanium .new{
+    font-size: .8em;
+}
+.titantop h6{
+    font: 1.1em  Arial, Helvetica , sans-serif;
+    margin: 10px;
+    color: #8b887eff;
+} 
+.titanium{
+    height: 40px;
+    padding: 15px 0;
+    background: url("../img/titanium.jpeg") center/contain no-repeat;
+}
+.titantop p{
+    font: .9em Arial, Helvetica , sans-serif;
+    color: #fff;
+    margin: 15px auto;
+}
+.titantop  .btn,#newphoria .btn,#love .lovetop .btn,#which .phonename .btn {
+        display: inline-block;
+        margin-top: 10px;
+        font: .8em  Arial, Helvetica , sans-serif;
+        background-color: var(--blue);
+        padding: 10px 25px;
+        border-radius: 30px;
+        color: #fff;
+        transition: .5s;
+}
+.titanbtm{
+    height: 290px;
+    width: 44%;
+    margin: auto;
+    background: url("../img/titanium-pc.png") center/contain no-repeat;
+    transform: rotate(90deg);
+}
+#newphoria{ padding: 40px 0;}
+#newphoria .new{
+    font-size: .8em;
+}
+#newphoria h6{
+    color: #8b887eff;
+    font: 1.1em  Arial, Helvetica , sans-serif;
+    margin: 10px;
+}
+#newphoria h2{
+    font: 2em  Arial, Helvetica , sans-serif;
+}
+#newphoria p{
+    font: .9em Arial, Helvetica , sans-serif;
+    margin: 15px auto;
+}
+/* #newphoria .btn{
+    display: inline-block;
+    margin-top: 10px;
+    font: .8em  Arial, Helvetica , sans-serif;
+    background-color: var(--blue);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #fff;
+} */
+.newbtm{ 
+    background: url("../img/newphoria.jpeg") center/contain no-repeat;
+    height: 20vh;
+    width: 90vw;
+    margin: auto;
+}
+#love{
+    margin-top: -10px;
+    padding: 40px 0;
+}
+
+#love .lovetop h6{
+    font: 1.1em  Arial, Helvetica , sans-serif;
+    margin: 10px;
+}
+#love .lovetop h2 , #love .lovetop h1{
+    font: bold 2em  Arial, Helvetica , sans-serif;
+    color: #1e3791;
+    margin: 20px 0;
+}
+#love .lovetop p{
+    font: .9em Arial, Helvetica , sans-serif;
+    margin: 15px auto;
+}
+/* #love .lovetop .btn{
+    display: inline-block;
+    margin-top: 10px;
+    font: .8em  Arial, Helvetica , sans-serif;
+    background-color: var(--blue);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #fff;
+} */
+.lovebtm{
+    background: url("../img/lovebg.jpeg") center/contain no-repeat;
+    height: 50vh;
+}
+.guidtop{
+    h4{font: 600 1.4em Arial, Helvetica , sans-serif;}
+    h2{font: 500 1.8em Arial, Helvetica , sans-serif; margin: 20px 0;}
+}
+.guidbtm{
+    background: url("../img/şakaladoglan.jpeg")   center/cover no-repeat;
+    height: 50vh;
+}
+.guidbtm >*{
+    display: none;
+}
+#which{
+    padding: 40px 0;
+}
+#which h2{
+    font: 2em Arial, Helvetica , sans-serif ;
+}
+.whichmargin{ padding-top:20px   !important;}
+#which .phonesimg{
+    display: flex !important;
+    flex-direction: column !important;   
+    justify-content: center !important;
+    align-items: center !important;
+}
+ /* .whichtop{
+    display: flex !important;
+    flex-direction: column !important;
+ } */
+#which .phonesimg img:nth-child(1) {
+    object-fit: contain;
+    height: 170px;
+    width: 225px;
+}
+#which .phonesimg img:nth-child(2){
+    object-fit: contain;
+    height: 40px;
+    width: 80px;
+}
+#which .phonename .new{font-size: .8em;}
+#which .phonename h5{ font: bold 1em Arial, Helvetica , sans-serif ;}
+#which .phonename h6{ font:  1em Arial, Helvetica , sans-serif ;}
+#which .phonename p{ font: .9em Arial, Helvetica , sans-serif; margin: 15px auto;}
+/* #which .phonename .btn{ 
+    display: inline-block;
+    margin-top: 10px;
+    font: .8em  Arial, Helvetica , sans-serif;
+    background-color: var(--blue);
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: #fff;
+} */
+#which hr{ 
+    width: 80%;
+    margin: auto;
+}
+.whichcenter div{ padding: 20px 0;}
+.whichcenter div p{
+    width: 145px;
+    margin: auto;
+    font: .7em/2 Arial, Helvetica , sans-serif;
+}
+.whichcenter div img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+.whichcenter div .zoom{font: 600 1.4em Arial;}
+#which .links{margin-top: 8px;}
+#waystosave{ 
+    padding: 40px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#waystosave h2{ font: 2em Arial, Helvetica , sans-serif;}
+#waystosave .allcard .card{
+    background-color: #fff;
+    padding: 10px;
+    border: 0px;
+    margin: 15px;
+    border-radius: 0px;
+}
+#waystosave .allcard .card h5{
+    font-weight: bold;
+    font-size:  1.5em;
+    padding: 30px;
+}
+#waystosave .allcard .card p{ color: #6e6e73;}
+#waystosave .allcard .cardimg1{ 
+    height: 30vh;
+    background: url("../img/cardimg1.jpg") center/contain no-repeat;
+}
+#waystosave .allcard .cardimg2{
+    height: 20vh;
+    background: url("../img/cardimg2.jpeg") center/contain no-repeat;
+}
+#waystosave .allcard .cardimg3{
+    height: 30vh;
+    background: url("../img/cardimg3.jpeg") center/contain no-repeat;
+}
+#whyapple{ 
+    background-color: #fff;
+    margin: 20px 10px;
+    padding: 30px 15px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+#whyapple h3{
+    font: bold 2em Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+}
+#whyapple .whybtm{
+    height: 25vh;
+    background: url("../img/whyapple.jpeg") left/cover no-repeat;
+}
+#accessories h2{ 
+    font: bold 2em Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+
+}
+#accessories .magair , .magic{
+    background-color: #fff;
+    margin: 20px 10px;
+    padding: 10px;
+}
+#accessories .magair h3 , #accessories .magic h3{
+    font: 600 2em Arial, Helvetica, sans-serif;
+}
+#accessories .magair p{
+    max-width: 300px;
+    margin: 15px auto;
+    font: 1.1em/1.5 Arial, Helvetica, sans-serif;
+}
+#accessories .magair .magairbtm{
+    background: url("../img/magair1.jpeg") center/contain no-repeat;
+    height: 30vh;
+    margin: 30px 0;
+}
+#accessories .magair .airbtm{
+    background: url("../img/magair2.jpg") center/contain no-repeat;
+    height: 30vh;
+    margin: 30px 0;
+}
+#accessories .magic h3{
+    margin: 20px 0 30px 0;
+}
+#accessories .magic .magicbtm{
+    background: url("../img/magicbtm.jpeg") center/contain no-repeat;
+    height: 20vh;
+}
+.services .serv{
+    padding: 30px 10px;
+    .linkdiv{padding: 5px 0 !important;}
+}
+.services .serv h5{
+    padding: 15px 0;
+    font: 600 1.3em Arial, Helvetica, sans-serif;
+}
+#whatmakes h2,#getmore h2{ font: 600 2em Arial, Helvetica, sans-serif;}
+#whatmakes .magic .sectop{
+    h2{font: 500 1.8em Arial, Helvetica, sans-serif;}
+    p{font-family: Arial, Helvetica, sans-serif;}
+}
+#whatmakes .magic .iosbtm{ background: url("../img/ios17.jpg") center/cover no-repeat;}
+#whatmakes .switch .switchbtm{ background: url("../img/switch1.jpeg") center/cover no-repeat;}
+#whatmakes .switch .privacybtm{ background: url("../img/privacy.jpg") center/cover no-repeat;}
+.switch .tvbtm{ background: url("../img/tvbtm.png") center/cover no-repeat;}
+.switch .musicbtm{ background: url("../img/musicbg.jpg") center/cover no-repeat;}
+.switch .fitnesbtm{ background: url("../img/fitnessbtm.jpg") center/cover no-repeat;}
+.switch .arcadebtm{ background: url("../img/arcadebtm.png") center/cover no-repeat;}
+.switch .newsbtm{ background: url("../img/newsbtm.jpeg") center/cover no-repeat;}
+.switch .giftbtm{ background: url("../img/giftbtm.jpg") center/cover no-repeat;}
+ .researchbtm{ background: url("../img/researchbtm.jpg") center/contain no-repeat ; }
+.magairbtm{
+    height: 30vh;
+    margin: 30px 0;
+}
+ .switch{
+    display: flex;
+    flex-direction: column;
+}
+ .switch .secbtm{ 
+    margin: 10px 0;
+    height: 40vh;
+}
+#getmore .one{ 
+    width: 100%;
+    display: inline-block;
+    margin: auto;
+    height: 40px;
+    background: url("../img/apple_one.jpg") center/contain no-repeat;
+}
+#getmore .getbtm{ background: url("../img/getbtm.jpeg") center/contain no-repeat;}
+#getmore p{
+    font: 1.4em Arial, Helvetica, sans-serif;
+    margin: 20px 0;
+}
+#app{
+    background-color: var(--boz);
+    .magair{
+         background-color: #fff;
+         padding: 10px;
+    }
+    h3{
+        font: 500 1.8em/.8 Arial, Helvetica, sans-serif;
+        margin: 20px 0;
+    }
+    p{
+        max-width: 300px;
+        margin: 15px auto;
+        font: 1.1em/1.5 Arial, Helvetica, sans-serif ;
+    }
+}
+.bgag{background-color: #fff; width: 100%;}
+
+#about {
+    padding: 20px 0;
+    text-align: justify;
+    font-size: initial;
+    font-size: 0.9em;
+    color: #0000007a;
+}
+footer{
+    li{
+    color: #000000bd !important;
+    font-weight: normal;
+    }
+}
+footer .ftop{
+    
+    .linkdiv{ padding: 10px 0;}
+    .links{ 
+        display: inline-block;
+        /* margin-top: 8px;  */
+        font-size: 1em;
+        color: #000;
+        .fa-apple{
+            font-size: 1.5rem;
+            padding-right: 50px;
+        }
+    }
+}
+footer .footermenu{
+    ul li{
+        font: 12.8px  Arial, Helvetica, sans-serif;
+        margin: 5px 0 ;
+    }
+    a{
+        text-decoration: none;
+        color: inherit !important;
+    }
+}
+footer p{
+    margin: 20px 0;
+    font: 12.8px  Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+/* footer .footermenu .footernav{
+    line-height: 2.5em;
+} */
+@media only screen and (min-width:768px) {
+    .headerslider{overflow-x: scroll;}
+    .titanbtm{
+        height: 320px;
+        width: 60%;
+        transform: rotate(0deg);
+    }
+    #newphoria h2{
+        font-size: 2.8em;
+    }
+    .newbtm{ 
+        height: 55vh;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .love{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #love .lovetop h2 , #love .lovetop h1{ font-size: 2.5em;}
+    #love .lovetop p{font-size: 1.2em;}
+    .lovetop{
+        width: 50%;
+    }
+    .lovebtm{
+        width: 50%;
+        height: 100vh;
+    }
+    #guidtour{
+        background: url("../img/şakaladoglan.jpeg") center/cover no-repeat ;
+        height: 100vh;
+        border-radius: 30px;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .guidtop{display: none;}
+    .guidbtm >*{display: initial;}
+    .guidbtm{
+        display: flex;
+        flex-direction: column;
+        background: initial;
+        color: white;
+    }
+    .guidbtmtext{
+        text-align: left;
+        h4{font: 600 1.4em Arial, Helvetica , sans-serif; }
+        h2{
+            font: 600 2.5em Arial, Helvetica , sans-serif; 
+            margin: 20px 0;
+        }
+        #watch{
+            background-color: #E3E0DC;
+            padding:  8px;
+            width: 123px;
+            border-radius: 20px;
+            text-align: center;            
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font: .8em Arial, sans-serif;
+        }
+    }
+    #which h2{font: bold 3em Arial, Helvetica , sans-serif ;}
+    #waystosave h2{ font-size: 2.8em;}
+    #waystosave .allcard .card1{
+        width: 100% !important; 
+    }
+    #waystosave .allcard .card{ width: 50%;}
+    #waystosave .allcard .cards{
+        display: flex;
+    }
+    #whyapple{ 
+        height: 80vh;
+        background: url("../img/whyapple.jpeg") center/cover no-repeat;}
+    #whyapple div{
+        max-width: 500px;
+        margin: auto    ;
+    }
+    #whyapple .whybtm{ display: none;}
+    #accessories h2 { 
+        width: 300px;
+        text-align: center;
+        margin: 30px auto;
+        padding: 20px;
+    }
+    .w50{ width: 50%;}
+     .magair{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    #accessories .magair{
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+    }
+    #accessories .magair .magairbtm{
+        height: 60vh;
+    }
+    #accessories .magair h3{
+        font-size: 2.8em;
+    }
+    #accessories .magair .airbtm{
+        /* height: 60vh; */
+        background: url("../img/magair768px.jpeg") center/contain no-repeat;
+        order: -1;
+    }
+     .magic .magicbtm{
+        height: 50vh;
+    }
+    .services{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .services .serv{
+        min-width: 280px;
+        width: 33.33%;
+    }
+    .secbtm{ height: 50vh;}
+    /* #whatmakes .magic .secbtm{ height: 50vh;} */
+    .switch{
+        flex-direction: row;
+    }
+    #whatmakes h2, #getmore h2{ font: 600 2.5em Arial, Helvetica, sans-serif;}
+    .getbtm{order: -1;}
+    .magairbtm{
+        height: 60vh;
+    }
+    #app{
+        
+        h3{
+            font-size: 2.8em;
+        }
+    }
+    .accordion{
+        display: none !important;
+    }
+    .footermenudetskop{
+        display: flex;
+        color: #000000bd;
+        font-weight: normal;
+    }
+    .w20{width: 20%;}
+    .fbtm {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .titantop  .btn:hover{
+        background-color: var(--blue) !important;
+        color: white;
+        box-shadow: 5px  5px 10px #fff;
+
+    }
+    #newphoria .btn:hover,#love .lovetop .btn:hover,#which .phonename .btn:hover{
+        box-shadow: 5px  5px 10px #000;
+    }
+    .linkdiv{
+        position: relative;
+    }
+    /* .links::before{
+        content: "";
+            position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.5s ease-in-out;
+            display: inline-block;
+    }
+    .links:hover::before{
+        transform: scaleX(1);
+
+    } */
+    .links::after{
+        display: block;
+        content: "";
+        height: 3px;
+        margin: 5px 0;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(90deg,  orange, yellow, green, blue);
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 0.5s ease-in-out;
+        /* background: transparent; */
+    }
+    .links:hover::after{
+        transform: scaleX(1);
+
+    } */
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:992px) {
+    .toggler .svg1{ display: none;}
+    .collapse svg{display: initial !important;} 
+    .headerslider{overflow-x: initial;}
+    #waystosave .allcard{ 
+        display: flex;
+        justify-content: space-between;
+    }
+    #waystosave .allcard .card1{width: 33.33% !important;}
+    #waystosave .allcard .cards{ width: 66.66%;}
+}
